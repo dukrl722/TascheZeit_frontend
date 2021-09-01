@@ -1,0 +1,109 @@
+.login {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #F7F8FA;
+}
+
+.login .textLogin {
+    padding: 20px;
+}
+
+.login .titleLogin {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 280%;
+    margin-top: 15px;
+    text-align: center;
+    color: #000000;
+}
+
+.login .descriptionLogin {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight:lighter;
+    font-size: 240%;
+    margin-top: 15px;
+    text-align: center;
+    color: #000000;
+}
+
+.PLogin {
+    position: absolute;
+    max-width: 750px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#7D53D4, #4110a1);
+    margin-top: 0;
+    right: 0;
+    display: block;
+}
+
+.PLogin .formDiv {
+    position: relative;
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+}
+
+.PLogin .login_label {
+    margin-top: 20%;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+.PLogin .formDiv .inputLogin {
+    position: relative;
+    padding: 10px;
+    width: 100%;
+    height: 70px;
+    margin: 5px;
+    background: #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+.PLogin .formDiv .inputLogin:first-child {
+    margin-top: 15%;
+}
+
+.PLogin .formDiv .continue {
+    height: 70px;
+    width: 100%;
+    margin: 5px;
+    margin-top: 20px;
+}
+
+.PLogin .formDiv .continue button {
+    background: #4110a1;
+    color: #E5E5E5;
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+.PLogin .formDiv .continue button:hover {
+    background: #200358;
+    transition: 0.2s;
+}
+
+.PLogin .formDiv p {
+    margin: 5px;
+    color: #E5E5E5;
+}
+
+.PLogin .formDiv a {
+    margin: 5px;
+    color: #200358;
+}
